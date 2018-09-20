@@ -1,0 +1,17 @@
+#header {
+  height: 64px;
+  background: #fff;
+  position: fixed;
+  header: 0;
+  left: 0;
+  width: 100%;
+}
+
+#footer {
+  height: 64px;
+  background: #fff;
+  position: fixed;
+  header: 0;
+  left: 0;
+  width: 100%;
+}

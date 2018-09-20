@@ -1,0 +1,28 @@
+<div class="container-fluid">
+
+
+
+  {{datas | json}}
+
+  <hr>
+
+  <select [(ngModel)]="data">
+  <option *ngFor="let c of datas; let i = index" [value]="c.eng">{{i + ':' + c.han}}</option>
+</select>
+
+  <input [value]="data" (click)="input=$event.target.value">
+
+  <button type="button" class="btn btn-default" (click)="doCount()"></button>
+
+  {{arrayservice.count}}
+
+  <hr>
+
+  {{arrayservice | json}}
+
+  <hr>
+
+  <label for="">{{input}}</label>
+
+
+</div>

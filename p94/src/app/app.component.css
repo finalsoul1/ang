@@ -1,0 +1,24 @@
+.container {
+  /* border: 2px solid black; */
+  /* height: 100%; */
+  width: 100%;
+  padding: 10px;
+   background: -webkit-linear-gradient(-45deg, #b3cae5 12%, #dbdde4 46%, #e4e3e4 70%, #f7ddbb 94%, #efcab2 100%);
+}
+
+.change-area {
+  border: 1px dotted red;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #333;
+    background-color: #A4BDF3;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    cursor: pointer;
+  }

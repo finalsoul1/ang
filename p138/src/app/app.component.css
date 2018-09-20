@@ -1,0 +1,24 @@
+div>a {
+  line-height:40px;
+  padding: 10px 30px;
+  color: rgba(0, 0, 0, 0.4);
+  margin: 10px;
+}
+
+app-home {
+  float: left;
+}
+
+.header {
+  background-color: #AEB7C9;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-spacing: 0;
+}
+.o {
+  margin: 0;
+  padding: 0;
+  background-color: #AEB7C9;
+}

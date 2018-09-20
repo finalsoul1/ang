@@ -1,0 +1,40 @@
+<select (change)="city=$event.target.value">
+  <!-- select박스의 값이 바뀌면 오른쪽 코드를 수행해라 -->
+
+  <option *ngFor="let obj of cities" [value]="obj.eng"
+    [selected]="city == obj.eng ? true : null">
+    <!-- select 태그에 있는 옵션, 초기선택하는 옵션 -->
+  {{obj.han}}
+  </option>
+</select>
+<br/>
+
+<!-- 위 코드를 쉽게 -->
+
+<select [(ngModel)]="city">
+  <option *ngFor="let c of cities; let i = index" [value]="c.eng">{{i + ':' + c.han}}</option>
+  <!-- index: 예약어, 회전수 -->
+</select>
+
+<br/><br/>
+
+<input [value]="city" (input)="city=$event.target.value">
+
+<br/>
+
+<input [(ngModel)]="city">
+
+<br/><br/>
+
+<!-- 화면에 영향을 거의 안미치는 span으로 감쌈. -->
+<span *ngFor="let obj of cities">
+  <input type="radio" [checked]="(obj.eng == city ? true : null)"
+    (click)="city=$event.target.value" [value]="obj.eng"
+    name="city1">{{obj.han}}
+</span>
+
+<br/>
+
+<span *ngFor="let c of cities">
+  <input type="radio" [(ngModel)]="city" [value]="c.eng" name="city2">{{c.han}}
+</span>
