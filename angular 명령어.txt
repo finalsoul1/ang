@@ -1,0 +1,13 @@
+ng g c customDirective -t -s  --spec false
+
+-t : http 파일 만들지마
+-s: css 파일 x
+--spec false: test 파일 x
+
+.ts 파일의 @Component 부분도 알아서 맞게 바뀜
+
+
+
+ng g cl kpop/kpop
+
+class 파일 만드는 명령어

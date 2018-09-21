@@ -19,5 +19,8 @@
   "homepage": "https://github.com/finalsoul1/ang#readme",
   "dependencies": {
     "babel": "^6.23.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.14.0"
   }
 }

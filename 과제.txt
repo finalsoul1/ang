@@ -4,3 +4,50 @@ ng new angular-simple-demo2
 
 기존 프로젝트와 비교해가면서 하나씩 코드를 추가하고
 화면 갱신 상태를 확인합니다.
+
+
+student.json
+{
+"data": [
+{"id":1, "name":"A"},
+{"id":1, "name":"B"},
+{"id":1, "name":"C"}
+]
+}
+
+1. student.model.ts
+2. student.http.service.ts
+3. student.component.ts 와 친구들
+4. app.component.ts 루트컴포넌트의 배치
+
+
+# 원격서버 json-sever로 구축
+db.json 파일 내용 샘플
+{
+  "data": [
+
+    {"id":1, "writer":"Tom", "content":"Be happy", "date":"20180921"},
+
+    {"id":2, "writer":"John", "content":"Be happy", "date":"20180921"},
+
+    {"id":3, "writer":"David", "content":"Be happy", "date":"20180921"}
+  ]
+}
+
+
+# 앵귤러 프로젝트 
+
+1. 새 프로젝트 생성
+2. memo 컴포넌트 생성
+3. 화면 디자인
+  - html
+  - css
+
+4. memo http 서비스 생성
+  - 메모 조회 기능(한 화면 리스트 형식)
+  - 메모 추가 기능
+  - 메모 삭제 기능
+
++추가 기능 및 디자인을 업그레이드 해 보세요.
+
+ 
