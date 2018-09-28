@@ -1,1 +1,5 @@
 p237 emp
+
+promise
+
+정규표현식.test()
